@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:hint="Ingrese texto 1"
+    android:id="@+id/Textoing1"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Ingrese texto 2"
+        android:id="@+id/Textoing2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Ingrese cuantas letras desea concatenar"
+        android:inputType="number"
+        android:maxLength="1"
+        android:id="@+id/letrasconca"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="PresionaBoton"
+        android:text="Presione aquí"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BotonVolveralInicio"
+        android:text="Volver al inicio"
+        android:textSize="30dp"
+        />
+</LinearLayout>
+
+
+
+

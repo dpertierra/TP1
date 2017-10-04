@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="Ingrese texto 1"
+        android:id="@+id/Textoing1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="La letra que quiere saber cuantas veces se repite"
+        android:id="@+id/letrarepetida"
+        android:maxLength="1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="PresionaBoton"
+        android:text="Contar letra repetida"
+        android:textSize="30dp"
+        />
+    <CheckBox
+        android:id="@+id/menosde10letras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Menos de 10 letras"></CheckBox>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/TVmostrar2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BotonVolveralInicio"
+        android:text="Volver al inicio"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
